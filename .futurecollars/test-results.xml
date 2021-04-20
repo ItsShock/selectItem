@@ -1,39 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="2" time="2.81">
-  <testsuite name="Funkcja selectItem" errors="0" failures="2" skipped="0" timestamp="2021-04-20T18:30:46" time="1.635" tests="5">
+<testsuites name="jest tests" tests="5" failures="0" time="2.773">
+  <testsuite name="Funkcja selectItem" errors="0" failures="0" skipped="0" timestamp="2021-04-20T19:27:42" time="1.586" tests="5">
     <testcase classname="Funkcja selectItem powinna zwrócić element HTML" name="Funkcja selectItem powinna zwrócić element HTML" time="0.006">
     </testcase>
     <testcase classname="Funkcja selectItem powinna zwrócić element o id #level" name="Funkcja selectItem powinna zwrócić element o id #level" time="0.002">
     </testcase>
     <testcase classname="Funkcja selectItem powinna stworzyć element #level w elemencie &lt;body&gt;" name="Funkcja selectItem powinna stworzyć element #level w elemencie &lt;body&gt;" time="0.006">
     </testcase>
-    <testcase classname="Funkcja selectItem powinna stworzyć element &lt;select&gt; z trzema tagami &lt;option&gt; wraz z liczbami w środku" name="Funkcja selectItem powinna stworzyć element &lt;select&gt; z trzema tagami &lt;option&gt; wraz z liczbami w środku" time="0.007">
-      <failure>Error: expect(received).toBe(expected) // Object.is equality
-
-Expected: &quot;2&quot;
-Received: &quot;1&quot;
-    at Object.&lt;anonymous&gt; (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-04-02-r\tests\test.js:37:56)
-    at Object.asyncJestTest (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-04-02-r\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-04-02-r\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-04-02-r\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-04-02-r\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    <testcase classname="Funkcja selectItem powinna stworzyć element &lt;select&gt; z trzema tagami &lt;option&gt; wraz z liczbami w środku" name="Funkcja selectItem powinna stworzyć element &lt;select&gt; z trzema tagami &lt;option&gt; wraz z liczbami w środku" time="0.004">
     </testcase>
     <testcase classname="Funkcja selectItem powinna wywołać window.alert z poprawną liczbą gdy element o id #level się zmieni na skutek zdarzenia" name="Funkcja selectItem powinna wywołać window.alert z poprawną liczbą gdy element o id #level się zmieni na skutek zdarzenia" time="0.003">
-      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
-
-Expected: &quot;2&quot;
-Received: called with 0 arguments
-
-Number of calls: 1
-    at Object.&lt;anonymous&gt; (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-04-02-r\tests\test.js:48:26)
-    at Object.asyncJestTest (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-04-02-r\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-04-02-r\node_modules\jest-jasmine2\build\queueRunner.js:45:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-04-02-r\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
-    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-04-02-r\node_modules\jest-jasmine2\build\queueRunner.js:75:41
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
     </testcase>
   </testsuite>
 </testsuites>
